@@ -18,7 +18,8 @@
     <script>
         
         function myback(){
-            window.parent.backLogin()
+//             window.parent.backLogin()
+            window.parent.postMessage({refresh:'id'},'*');
         }
      
     </script>
